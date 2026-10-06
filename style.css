@@ -1,65 +1,76 @@
-body {
-    margin: 0;
-    font-family: Arial, sans-serif;
-    background-color: #c0dae7;
-    color: #023033;
-}
+{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
 
-nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: #10bee1;
-    padding: 10px 20px;
-    color: white;
-}
+    body {
+        margin: 0;
+        font-family: Arial, sans-serif;
+        background-color: #e6f7ff;
+        color: #023033;
+    }
 
-nav h1 {
-    margin: 0;
-    font-size: 30px;
-}
+    nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: #0f5f6f;
+        padding: 10px;
+        color: white;
+    }
 
-nav ul {
-    list-style: none;
-    display: flex;
-    gap: 15px;
-    margin: 0;
-    padding: 0;
-}
+    nav h1 {
+        margin: 0;
+        font-size: 20px;
+    }
 
-nav a {
-    color: white;
-    text-decoration: none;
-    font-weight: bold;
-}
+    nav ul {
+        list-style: none;
+        display: flex;
+        gap: 15px;
+        margin: 0;
+        padding: 0;
+    }
 
-header {
-    text-align: center;
-    padding: 40px 20px;
-}
+    nav a {
+        color: white;
+        text-decoration: none;
+        font-weight: bold;
+    }
 
-main {
-    padding: 20px;
-}
+    header {
+        text-align: center;
+        padding: 40px 20px;
+        background-color: #bfefff;
+    }
 
-main h2 {
-    text-align: center;
-}
+    #materias {
+        display: flex;
+        gap: 20px;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: center;
+        align-items: flex-start;
+    }
 
-.card {
-    display: inline-block;
-    vertical-align: top;
-    width: 28%;
-    margin: 1%;
-    padding: 20px;
-    background-color: white;
-    border-radius: 10px;
-}
+    .card {
+        background-color: white;
+        border-radius: 8px;
+        padding: 20px;
+        width: 350px;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        transition: transform 0.2s;
+    }
 
-footer {
-    background-color: #0f5f6f;
-    color: white;
-    text-align: center;
-    padding: 15px;
-    margin-top: 30px;
-}
+    .card:hover {
+        transform: scale(1.05);
+    }
+
+    footer {
+        text-align: center;
+        padding: 15px;
+        background-color: #0f5f6f;
+        color: white;
+        margin-top: 20px;
+    }
